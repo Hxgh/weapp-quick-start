@@ -1,0 +1,15 @@
+/* 
+* 图标
+* 基础结构样式
+* 业务公共样式
+*/
+@import "/style/iconfont.wxss";
+@import "/style/layout.wxss";
+@import "/style/public.wxss";
+
+/**
+* basic
+*/
+page{
+  background: white;
+}

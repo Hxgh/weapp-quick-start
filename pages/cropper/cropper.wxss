@@ -1,0 +1,32 @@
+page {
+  background: rgb(14, 13, 13);
+}
+.hint {
+  position: absolute;
+  top: 120rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28rpx;
+  text-align: center;
+  color: #ddd;
+  z-index: 10;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 60rpx);
+  padding: 0 30rpx;
+  display: flex;
+  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 110rpx;
+  background: rgb(255,255,255,0.1)
+}
+button {
+  font-size: 28rpx;
+  margin: 0;
+}

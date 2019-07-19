@@ -1,0 +1,86 @@
+@import "./assets/iconfont.wxss";
+
+/* reset */
+page {
+  /* height:100%;
+  font-size: 32rpx;
+  line-height: 1.6; */
+}
+.wrapper{
+  /* 防止纯数字不自动换行 */
+  word-break: break-all;  
+}
+
+.iconfont {
+  display: inline-block;
+  padding: 8px 8px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.toolbar {
+  box-sizing: border-box;
+  /* border: 1px solid #ccc; */
+  border-bottom: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+.ql-container {
+  box-sizing: border-box;
+  padding: 12px 15px;
+  width: 100%;
+  min-height: 30vh;
+  height: auto;
+  background: #fff;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ql-active {
+  color: #06c;
+}
+
+/*
+  把富文本编辑器的正版缩进改成了首行缩进
+*/
+
+.ql-editor .ql-indent-1:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 2em !important;
+}
+.ql-editor .ql-indent-2:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 4em !important;
+}
+.ql-editor .ql-indent-3:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 6em !important;
+}
+.ql-editor .ql-indent-4:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 8em !important;
+}
+.ql-editor .ql-indent-5:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 10em !important;
+}
+.ql-editor .ql-indent-6:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 12em !important;
+}
+.ql-editor .ql-indent-7:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 14em !important;
+}
+.ql-editor .ql-indent-8:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 16em !important;
+}
+.ql-editor .ql-indent-9:not(.ql-direction-rtl) {
+  padding-left: 0 !important;
+  text-indent: 18em !important;
+}

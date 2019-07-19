@@ -1,0 +1,31 @@
+{
+  "pages": ["pages/index/index", "pages/cropper/cropper"],
+  "window": {
+    "navigationBarTitleText": "weapp"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/index_light.png"
+      },
+      {
+        "pagePath": "pages/cropper/cropper",
+        "text": "cropper",
+        "iconPath": "img/cropper.png",
+        "selectedIconPath": "img/cropper_light.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "usingComponents": {
+    "loading": "/components/loading/loading",
+    "van-tabs": "/components/van-weapp/dist/tabs/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}
